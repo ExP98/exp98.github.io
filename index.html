@@ -1,50 +1,209 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Егор Глушков — резюме</title>
-  <meta name="description" content="Резюме ML Engineer / Data Scientist — Егор Глушков">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Егор Глушков — резюме">
-  <meta property="og:description" content="ML Engineer / Data Scientist, SPbU Math&Mech.">
-  <meta property="og:url" content="https://exp98.github.io/">
-  <meta name="theme-color" content="#ffffff">
-  <!-- фавиконки -->
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="alternate icon" type="image/png" href="favicon-32.png" sizes="32x32">
-  <style>
-    :root {
-      --bg:#f6f7f8; --text:#111; --border:#ddd; --btn:#fff; --btnh:#eee;
-    }
-    *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
-    .wrap{max-width:980px;margin:0 auto;padding:20px}
-    .header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:16px;flex-wrap:wrap}
-    .title{margin:0;font-size:28px;line-height:1.2}
-    .actions{display:flex;gap:10px;flex-wrap:wrap}
-    .btn{display:inline-block;padding:10px 14px;border-radius:8px;border:1px solid var(--border);text-decoration:none;background:var(--btn);color:var(--text);transition:background .15s}
-    .btn:hover{background:var(--btnh)}
-    .viewer{border:1px solid var(--border);background:#fff;height:85vh;border-radius:10px;overflow:hidden}
-    .viewer object{width:100%;height:100%;border:0}
-    @media (max-width:640px){ .title{font-size:22px} .viewer{height:75vh} }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Глушков Егор — резюме</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" type="image/png" href="favicon-32.png" sizes="32x32">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+            line-height: 1.4;
+            color: #333;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .header-text {
+            flex: 1;
+        }
+        .header-text h1 {
+            font-size:1.8rem;
+            margin: 0;
+            font-variant: small-caps;
+        }
+        .header-text p {
+            margin: 5px 0;
+        }
+        .header img {
+            width: 100px;
+            height: 120px;
+            object-fit: cover;
+            border: 1px solid #ccc;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 1.5em;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            font-variant: small-caps;
+        }
+        .subheading {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 5px;
+        }
+        .hackathons ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .hackathons ul li {
+            margin-bottom: 10px;
+        }
+        .hackathons ul li strong {
+            display: inline-block;
+            width: 200px;
+        }
+        .skills ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .skills ul li {
+            margin-bottom: 10px;
+        }
+        .skills ul li strong {
+            display: inline-block;
+            width: 150px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    
+/* vertical bar for company blocks under the company heading */
+.section h3 + .job-block{border-left:3px solid #ccc;padding-left:12px;margin-left:2px;}
+.job-block{border-left:3px solid #ccc;padding-left:12px;margin-left:2px;}
+</style>
 </head>
 <body>
-  <div class="wrap">
-    <header class="header" aria-label="Заголовок и действия">
-      <h1 class="title">Егор Глушков — резюме</h1>
-      <nav class="actions" aria-label="Действия с PDF">
-        <a class="btn" href="Resume_DS_MLE_Egor_Glushkov.pdf" download>Скачать PDF</a>
-        <a class="btn" href="Resume_DS_MLE_Egor_Glushkov.pdf" target="_blank" rel="noopener">Открыть в новой вкладке</a>
-      </nav>
-    </header>
 
-    <main class="viewer" aria-label="Встроенный просмотр PDF">
-      <object data="Resume_DS_MLE_Egor_Glushkov.pdf#zoom=page-fit" type="application/pdf">
-        Ваш браузер не поддерживает встроенный PDF. <a href="Resume_DS_MLE_Egor_Glushkov.pdf">Скачать файл</a>.
-      </object>
-    </main>
+<div class="header">
+  <div class="header-text">
+    <h1>Глушков Егор — Data Scientist / ML Engineer</h1>
+    
   </div>
+</div>
+
++7-922-917-14-31 • 
+<a href="mailto:egorglushkov2014@yandex.ru">egorglushkov2014@yandex.ru</a> • 
+<a href="https://t.me/plextheflex">t.me/plextheflex</a> • 
+<a href="https://github.com/ExP98">github.com/ExP98</a> • 
+<a href="https://exp98.github.io/Resume_DS_MLE_Egor_Glushkov.pdf">Резюме (pdf)</a>
+
+<div class="section">
+<h2>Опыт работы</h2>
+
+<h3>Цифровой двойник</h3>
+<div class="job-block" style="border-left:3px solid #ccc;padding-left:12px;margin-left:2px;">
+
+<p>Компания занимается разработкой систем поддержки принятия решений и математическим моделированием (<a href="https://dtwin.ru/">dtwin.ru</a>); <em>г. Санкт-Петербург</em>.</p>
+<div class="subheading">
+  <span><strong>Аналитик данных</strong></span>
+  <span><em>Март 2024 – Октябрь 2025</em></span>
+</div>
+<p>Работа над проектами для внешних заказчиков и внутренними продуктами:</p>
+<p>1. <strong>Прогнозирование финансовых потоков и оптимизация портфеля заказов для металлургического комбината</strong></p>
+<ul>
+<li>Разработал модель <em>LightGBM</em> для прогноза задержки оплат заказов (<em>MAE = 1.74 дня</em> — точность сопоставима с экспертной)</li>
+<li>Реализовал генетический алгоритм оптимизации портфеля заказов (<em>SMAPE = 5–15%</em>) для достижения целевых KPI</li>
+<li>Создал интерактивный прототип (<em>Shiny</em>) для расчёта сценариев и визуализации результатов</li>
+</ul>
+<p>2. <strong>Мониторинг и анализ рыночных и закупочных цен на строительные материалы для застройщика</strong></p>
+<ul>
+<li>Реализовал модели для анализа факторов ценообразования (<em>CatBoost</em>, <em>LightGBM</em>) и семантическое сопоставление записей (<em>RuSBERT</em> + <em>FAISS</em>) для унификации данных из разных источников</li>
+<li>Автоматизировал сбор и анализ рыночных цен на строительные материалы (<em>ETL</em> на <em>Prefect</em>, отчётность на <em>Quarto</em>)</li>
+</ul>
+<p>3. <strong>Формирование системы прогнозов и отчётности по показателям социально-экономического развития (СЭР) субъектов РФ</strong></p>
+<ul>
+<li>Построил факторную модель (<em>PCA</em> + <em>HHT-EMD</em> + <em>ARIMA</em>) для прогноза 80+ показателей СЭР по 85 регионам (<em>MAPE = 4–20%</em>)</li>
+</ul>
+<p>4. <strong>Развитие системы технического обслуживания и ремонта оборудования для энергетической корпорации</strong></p>
+<ul>
+<li>Спроектировал хранилище данных (<em>PostgreSQL</em>, <em>EAV</em> + <em>SCD2</em>) и автоматизировал загрузку и обновление таблиц объёмом <em>500M+</em> строк (<em>R / Python</em>, индексы и процедуры <em>PL/pgSQL</em>)</li>
+</ul>
+
+</div>
+<h3>Smooth Drug Development</h3>
+<div class="job-block" style="border-left:3px solid #ccc;padding-left:12px;margin-left:2px;">
+
+<p>Компания проводит клинические исследования лекарственных препаратов (<a href="https://smoothdd.com/">smoothdd.com</a>); <em>г. Санкт-Петербург</em>.</p>
+<div class="subheading">
+  <span><strong>Биостатистик</strong></span>
+  <span><em>Июль 2022 – Февраль 2024</em></span>
+</div>
+<ul>
+<li>Провёл статистический анализ данных более чем 20 клинических исследований (<em>R</em>, <em>SQL</em>)</li>
+<li>Автоматизировал подготовку воспроизводимых статистических отчётов с валидацией данных</li>
+<li>Применял методы регрессионного и дисперсионного анализа, анализа выживаемости и статистические тесты для оценки эффективности и безопасности препаратов</li>
+</ul>
+</div>
+
+</div>
+<div class="section">
+    <h2>Образование</h2>
+
+    <h3>Санкт-Петербургский государственный университет</h3>
+
+    <p><div class="subheading">
+        <span>
+            <strong>Магистр</strong>, «Математическое обеспечение», фак-т Математико‑механический<br><span style="display:inline-block; width:8ch;"></span>
+            Ссылка на диплом: <a href="https://diploma.spbu.ru/?rn=0921009&bd=19981209&h=f38923ea38db47ed9746370ba632a6a3&do=1"><em>diploma.spbu.ru</em></a>, <em>ср. балл 4.63</em>
+        </span>
+        <span><em>2020–2022</em></span>
+    </div></p>
+
+    <p><div class="subheading">
+        <span>
+            <strong>Бакалавр</strong>, «Программирование и информационные технологии», фак-т ПМ‑ПУ<br><span style="display:inline-block; width:8ch;"></span>
+            Ссылка на диплом: <a href="https://diploma.spbu.ru/?rn=1211027&bd=19981209&h=3c0a52c77e5f45c89bbca30e02843c40&do=1"><em>diploma.spbu.ru</em></a>, <em>ср. балл 4.67</em>
+        </span>
+        <span><em>2016–2020</em></span>
+    </div></p>
+</div>
+
+<div class="section">
+<h2>Проекты</h2>
+
+<p><a href="https://github.com/ExP98/Diploma_Holland">Дипломный проект</a>, СПбГУ | <em>Предсказание кода Голланда по данным психометрических тестов личности</em></p>
+<ul>
+<li>Разработал модульный ML-конвейер (<em>R</em>, <em>Python</em>, <em>Shiny</em>) для предсказания шести факторов личности по неполным данным других тестов</li>
+<li>Реализовал ансамбль <em>multioutput</em>-регрессоров с оптимизацией весов методом роя частиц (<em>PSO</em>), достигнув <em>Cind = 11.66</em> (выше опубликованных аналогов), проведя сравнение различных постановок задач и моделей</li>
+<li>Защитил работу как магистерскую ВКР, выступил на научной конференции; лучшее решение внедрено в лаборатории СПб ФИЦ РАН</li>
+</ul>
+
+</div>
+<div class="section">
+<h2>Навыки</h2>
+
+<p><strong>Языки:</strong> Python, R, SQL</p>
+<p><strong>ML и обработка данных:</strong> NumPy, Pandas, Polars, scikit‑learn, CatBoost, LightGBM, XGBoost, PyTorch</p>
+<p><strong>Визуализация и прогнозирование:</strong> Matplotlib, Plotly, Shiny, SHAP, statsmodels, NeuralForecast</p>
+<p><strong>Инструменты и инфраструктура:</strong> PostgreSQL, ClickHouse, Git, Docker, Airflow, FastAPI, LLM</p>
+<p><strong>Сферы:</strong> Classical ML, Time Series, NLP</p>
+</div>
 </body>
 </html>
